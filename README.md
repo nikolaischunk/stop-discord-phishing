@@ -1,7 +1,8 @@
-# Discord Phishing Links
+# Stop Discord Phishing
 
 This will be a NPM Package soon!
 
-A list of malicious links which is used for [phishing](https://en.wikipedia.org/wiki/Phishing) on [Discord](https://discord.com).
+A Package that works with the [list of suspicious Domains](https://github.com/nikolaischunk/discord-phishing-links) which are used for [phishing](https://en.wikipedia.org/wiki/Phishing) on [Discord](https://discord.com).
 
-This list will be updated daily, if you have domains that are not on that list, feel free to create a Pull Request or an Issue, we will add them as soon as possible!
+This is the official Repository & NPM Package to provide a API to work with those Links.
+Feel free to contribute to this Project!
