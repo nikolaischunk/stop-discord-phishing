@@ -2,3 +2,5 @@
 node_modules
 docs
 .idea
+README.md
+.gitignore
