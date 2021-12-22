@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Idea
+.idea
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Optional npm cache directory
+.npm
