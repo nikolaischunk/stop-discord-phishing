@@ -11,7 +11,6 @@ This is the official Repository & NPM Package to provide a API to work with thos
 
 Feel free to contribute to this Project!
 
-
 ### NPM Install
 
 ```bash
@@ -21,9 +20,9 @@ npm install stop-discord-phishing
 ### How to use:
 
 ```javascript
-const fun = require('fun-responses')
+const stopPhishing = require('stop-discord-phishing')
 
-const message = "this is a string that should be checked";
+const message = 'this is a string that should be checked'
 ```
 
 ### List all Domains:
@@ -36,24 +35,24 @@ async function list () {
   return links
 }
 
-list();
+list()
 ```
+
 ### Check if String contains a Phishing Link:
 
 ```javascript
-async function checkMessage(message) {
-let isGrabber = await stopPhishing.checkMessage(message);
-//Now you can something with the Boolean Value
-console.log(isGrabber);
-return isGrabber;
+async function checkMessage (message) {
+  let isGrabber = await stopPhishing.checkMessage(message)
+  //Now you can something with the Boolean Value
+  console.log(isGrabber)
+  return isGrabber
 }
 
-checkMessage(message);
+checkMessage(message)
 ```
 
-
 ### Amounts of Phishing Domains
-Use|Responses
--|-
-`stopPhishing.list()`|270+
 
+| Use                   | Domains |
+| --------------------- | ------- |
+| `stopPhishing.list()` | 270+    |
