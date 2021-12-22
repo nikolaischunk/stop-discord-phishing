@@ -1,8 +1,59 @@
 # Stop Discord Phishing
 
-This will be a NPM Package soon!
+![npm](https://img.shields.io/bundlephobia/min/stop-discord-phishing?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/stop-discord-phishing?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/stop-discord-phishing?style=for-the-badge)
+![npm](https://img.shields.io/npm/dt/stop-discord-phishing?style=for-the-badge)
 
 A Package that works with the [list of suspicious Domains](https://github.com/nikolaischunk/discord-phishing-links) which are used for [phishing](https://en.wikipedia.org/wiki/Phishing) on [Discord](https://discord.com).
 
 This is the official Repository & NPM Package to provide a API to work with those Links.
+
 Feel free to contribute to this Project!
+
+
+### NPM Install
+
+```bash
+npm install stop-discord-phishing
+```
+
+### How to use:
+
+```javascript
+const fun = require('fun-responses')
+
+const message = "this is a string that should be checked";
+```
+
+### List all Domains:
+
+```javascript
+async function list () {
+  let links = await stopPhishing.listDomains()
+  //Now you can something with Array with all the Domains in it
+  console.log(links)
+  return links
+}
+
+list();
+```
+### Check if String contains a Phishing Link:
+
+```javascript
+async function checkMessage(message) {
+let isGrabber = await stopPhishing.checkMessage(message);
+//Now you can something with the Boolean Value
+console.log(isGrabber);
+return isGrabber;
+}
+
+checkMessage(message);
+```
+
+
+### Amounts of Phishing Domains
+Use|Responses
+-|-
+`stopPhishing.list()`|270+
+
