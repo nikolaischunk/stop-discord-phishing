@@ -1,7 +1,7 @@
 {
   "name": "stop-discord-phishing",
-  "version": "0.0.4",
-  "description": "A simple Package that adds functionality with Discord Tokkenloggers Links to prevent scams & phishing",
+  "version": "0.1.0",
+  "description": "A simple Package that adds functionality with Discord Phishing Links to prevent scams & phishing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
