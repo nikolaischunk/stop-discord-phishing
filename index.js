@@ -4,3 +4,4 @@ const list = require("./lib/list");
 exports.checkMessage = check.checkMessage;
 
 exports.listDomains = list.listDomains;
+exports.listSuspicious = list.listSuspicious;
