@@ -51,8 +51,23 @@ async function checkMessage (message) {
 checkMessage(message)
 ```
 
-### Amounts of Phishing Domains
+## Amounts of Phishing Domains
 
 | Use                   | Domains |
 | --------------------- | ------- |
 | `stopPhishing.list()` | 6700+    |
+
+## Changelog
+
+#### 0.1.0 Current
+- Added suspicious Domains Support
+- Updated ReadMe
+
+#### 0.0.4
+- Added Chache Support and set Cache duration to 30min
+
+#### 0.0.3
+- Added better Project Structure
+
+#### 0.0.1
+- Initial (and Test) Upload
