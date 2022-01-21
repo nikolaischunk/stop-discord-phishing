@@ -46,7 +46,8 @@ async function listSuspiciousDomains () {
   return links
 }
 
-list()
+listPhishingDomains()
+listSuspiciousDomains()
 ```
 
 ### Check if String contains a Phishing Link:
