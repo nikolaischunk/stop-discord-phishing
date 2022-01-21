@@ -55,4 +55,4 @@ checkMessage(message)
 
 | Use                   | Domains |
 | --------------------- | ------- |
-| `stopPhishing.list()` | 870+    |
+| `stopPhishing.list()` | 6700+    |
