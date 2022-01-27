@@ -1,6 +1,6 @@
 {
   "name": "stop-discord-phishing",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple Package that adds functionality with Discord Phishing Links to prevent scams & phishing",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,10 @@
     "scam-link",
     "scam-sites",
     "tokengabber-prevention",
-    "phishing-prevention"
+    "phishing-prevention",
+    "phishing-links-detection",
+    "discord-scams",
+    "steam-scams"
   ],
   "author": {
     "name": "chillihero",
