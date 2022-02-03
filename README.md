@@ -10,7 +10,7 @@
 
 This is the official Repository & NPM Package to provide a API to work with those Links.
 
-Feel free to contribute to this Project!
+If you like this Project consider giving it a ⭐ and also feel free to contribute to this Project!
 
 ## Source
 
@@ -82,8 +82,8 @@ To prevent to much requests & load, we added a Cache of `30 minutes`!
 
 | Use                             | Domains |
 | ------------------------------- | ------- |
-| `stopPhishing.listDomains()`    | 7100+   |
-| `stopPhishing.listSuspicious()` | 100+    |
+| `stopPhishing.listDomains()`    | 7500+   |
+| `stopPhishing.listSuspicious()` | 250+    |
 
 ## Changelog
 
