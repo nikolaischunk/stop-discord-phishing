@@ -62,7 +62,7 @@ async function checkMessage (message) {
   return isGrabber
 }
 
-async function checkMessageFull (message, true) {
+async function checkMessageFull (message, True) {
   //check string on confirmed & not yet confirmed but suspicious Phishing Domains
   let isGrabber = await stopPhishing.checkMessage(message)
   //Now you can do something with the Boolean Value
