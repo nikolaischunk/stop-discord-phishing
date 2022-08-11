@@ -1,7 +1,7 @@
 {
   "name": "stop-discord-phishing",
-  "version": "0.2.0",
-  "description": "A simple Package that adds functionality with Discord Phishing Links to prevent scams & phishing",
+  "version": "0.3.0",
+  "description": "A simple Package that gives you Utils to find and recognize Discord Phishing Links to prevent scams & phishing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,7 @@
   ],
   "author": {
     "name": "chillihero",
-    "web": "chillihero.de"
+    "web": "schunk.dev"
   },
   "license": "MIT",
   "bugs": {
