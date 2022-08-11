@@ -1,5 +1,6 @@
 # Stop Discord Phishing
 
+![domains](https://img.shields.io/badge/dynamic/json?color=79BFAA&label=Domains&query=domainCount&url=https%3A%2F%2Fchillihero.api.stdlib.com%2Ftokengrabber-check%400.2.3%2FgetAmount&style=for-the-badge)
 ![npm](https://img.shields.io/bundlephobia/min/stop-discord-phishing?style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/stop-discord-phishing?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/stop-discord-phishing?style=for-the-badge)
