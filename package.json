@@ -1,6 +1,6 @@
 {
   "name": "stop-discord-phishing",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A simple Package that gives you Utils to find and recognize Discord Phishing Links to prevent scams & phishing",
   "main": "index.js",
   "scripts": {
