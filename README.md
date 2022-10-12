@@ -1,6 +1,6 @@
 # Stop Discord Phishing
 
-![domains](https://img.shields.io/badge/dynamic/json?color=79BFAA&label=Domains&query=domainCount&url=https%3A%2F%2Fchillihero.api.stdlib.com%2Ftokengrabber-check%400.2.3%2FgetAmount&style=for-the-badge)
+![domains](https://img.shields.io/badge/dynamic/json?color=79BFAA&label=Domains&query=count&url=https%3A%2F%2Fapi.schunk.dev%2Fapi%2Fdomain%2Fcount&style=for-the-badge)
 ![npm](https://img.shields.io/bundlephobia/min/stop-discord-phishing?style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/stop-discord-phishing?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/stop-discord-phishing?style=for-the-badge)
@@ -9,7 +9,7 @@
 
 [stop-discord-phishing](https://github.com/nikolaischunk/stop-discord-phishing) works with the [list of phishing Domains](https://github.com/nikolaischunk/discord-phishing-links) to detect Domains in Messages which are used for [phishing](https://en.wikipedia.org/wiki/Phishing) on [Discord](https://discord.com).
 
-This is the official Repository & NPM Package to provide a API to work with those Links.
+This is the official Repository & NPM Package to provide functionality to work with those Links.
 
 If you like this Project consider giving it a ⭐ and also feel free to contribute to this Project!
 
@@ -38,14 +38,14 @@ const message = "this is definitivelynotascamdomain.ru that should be checked";
 
 //Check string on confirmed Phishing Domains
 async function checkMessage(message) {
-  let isGrabber = await stopPhishing.checkMessage(message); //True
+  const isGrabber = await stopPhishing.checkMessage(message); //True
   console.log(isGrabber);
   return isGrabber;
 }
 
 //Check string on confirmed Phishing Domains & suspicious Domains RECOMMENDED!
-async function checkMessageFull(message, True) {
-  let isGrabber = await stopPhishing.checkMessage(message); //True
+async function checkMessageFull(message) {
+  const isGrabber = await stopPhishing.checkMessage(message, true); //True
   console.log(isGrabber);
   return isGrabber;
 }
@@ -58,19 +58,19 @@ checkMessageFull(message);
 
 ```javascript
 async function listPhishingDomains() {
-  let links = await stopPhishing.listPhishingDomains(); //[]
+  const links = await stopPhishing.listPhishingDomains(); //[]
   //Now you can do something with Array with all the confirmed Phishing Domains in it
   console.log(links);
   return links;
 }
 async function listSuspiciousDomains() {
-  let links = await stopPhishing.listSuspiciousDomains(); //[]
+  const links = await stopPhishing.listSuspiciousDomains(); //[]
   //Now you can do something with Array with all the suspicious Domains in it
   console.log(links);
   return links;
 }
 async function listAllDomains() {
-  let links = await stopPhishing.listAllDomains(); //[]
+  const links = await stopPhishing.listAllDomains(); //[]
   //Now you can do something with Array with all the suspicious and confirmed phishing Domains in it
   console.log(links);
   return links;
@@ -86,19 +86,19 @@ listAllDomains();
 ```javascript
 //Get the amount of all Phishing and Suspicious Domains
 async function getDomainAmount() {
-  let amount = await stopPhishing.domainCount(); //Number
+  const amount = await stopPhishing.domainCount(); //Number
   console.log(amount);
   return amount;
 }
 //Get the amount of all Phishing Domains
 async function getPhishingDomainAmount() {
-  let amount = await stopPhishing.phishingDomainCount(); //Number
+  const amount = await stopPhishing.phishingDomainCount(); //Number
   console.log(amount);
   return amount;
 }
 //Get the amount of all Suspicious Domains
 async function getSuspiciousDomainAmount() {
-  let amount = await stopPhishing.suspiciousDomainCount(); //Number
+  const amount = await stopPhishing.suspiciousDomainCount(); //Number
   console.log(amount);
   return amount;
 }
@@ -114,9 +114,13 @@ To prevent to much requests & load, we added a Cache of `30 minutes`!
 
 ## List of Phishing Domains
 
-Find the complete List of Domains here: [discord-phishing-links](https://github.com/nikolaischunk/discord-phishing-links)
+Find the complete List of Phishing Domains here: [discord-phishing-links](https://github.com/nikolaischunk/discord-phishing-links)
 
 ## Changelog
+
+### 0.3.1
+
+- Updated README.md
 
 #### 0.3.0 Current
 
