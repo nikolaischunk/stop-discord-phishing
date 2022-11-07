@@ -7,15 +7,15 @@
 
 ## About this Package
 
-[stop-discord-phishing](https://github.com/nikolaischunk/stop-discord-phishing) works with the [list of phishing Domains](https://github.com/nikolaischunk/discord-phishing-links) to detect Domains in Messages which are used for [phishing](https://en.wikipedia.org/wiki/Phishing) on [Discord](https://discord.com).
+[stop-discord-phishing](https://github.com/nikolaischunk/stop-discord-phishing) works with the [list of phishing Domains](https://github.com/nikolaischunk/discord-phishing-links) to detect [phishing](https://en.wikipedia.org/wiki/Phishing) domains in messages on [Discord](https://discord.com).
 
-This is the official Repository & NPM Package to provide functionality to work with those Links.
+This is the official repository & NPM package which provides functionality in detecting phising links.
 
-If you like this Project consider giving it a ⭐ and also feel free to contribute to this Project!
+If you like this project consider giving it a ⭐ and feel free to contribute to this project!
 
 ## Source
 
-If you found a Domain that is not detected yet, contribute it to the [discord-phishing-links](https://github.com/nikolaischunk/discord-phishing-links) Repository!
+If you found a domain that is not detected yet, contribute it to the [discord-phishing-links](https://github.com/nikolaischunk/discord-phishing-links) repository!
 
 ## Add Package to your Project
 
@@ -110,7 +110,7 @@ getSuspiciousDomainAmount();
 
 ## Cache
 
-To prevent to much requests & load, we added a Cache of `30 minutes`!
+To prevent an excess of requests and load, we added a Cache of `30 minutes`!
 
 ## List of Phishing Domains
 
