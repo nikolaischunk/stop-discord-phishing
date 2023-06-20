@@ -1,6 +1,6 @@
 {
   "name": "stop-discord-phishing",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A simple Package that gives you Utils to find and recognize Discord Phishing Links to prevent scams & phishing",
   "main": "index.js",
   "module": "esm.mjs",
@@ -32,7 +32,7 @@
     "steam-scams"
   ],
   "author": {
-    "name": "chillihero",
+    "name": "nikolaischunk",
     "web": "schunk.dev"
   },
   "license": "MIT",
